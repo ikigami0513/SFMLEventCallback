@@ -25,7 +25,7 @@ if(MSVC)
 add_compile_options(/arch:AVX2) #make sure SIMD optimizations take place
 endif()
 
-project(snake)
+project(sfml_event_callback)
 
 #Add SFML, and here you would add other libraries if needed!
 add_subdirectory(thirdparty/SFML-2.6.1)
